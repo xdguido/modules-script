@@ -728,7 +728,7 @@ function generarHojaSalidaFinal(
           nombreCombinacion = 'Todo Blanco';
           break;
         case 'soloOcultasBlancas':
-          nombreCombinacion = 'Solo Ocultas Blancas (Visibles Color)';
+          nombreCombinacion = 'Solo Ocultas Blancas (Frente Color)';
           break;
         case 'todoColor':
           nombreCombinacion = 'Todo Color';
@@ -994,7 +994,7 @@ function generarHojaSalidaFinal(
 
   // RESUMEN GENERAL: Solo Ocultas Blancas (Visibles Color)
   datos.push([
-    'RESUMEN GENERAL: SOLO OCULTAS BLANCAS (VISIBLES COLOR)',
+    'RESUMEN GENERAL: SOLO OCULTAS BLANCAS (FRENTE COLOR)',
     '',
     '',
     '',
@@ -1075,7 +1075,7 @@ function generarHojaSalidaFinal(
 
   // RESUMEN GENERAL: Todo Blanco (placa, canto 2mm en visibles)
   datos.push([
-    'RESUMEN GENERAL: TODO BLANCO (placa, canto 2mm en visibles)',
+    'RESUMEN GENERAL: TODO BLANCO (placa, canto 2mm)',
     '',
     '',
     '',
@@ -1119,7 +1119,7 @@ function generarHojaSalidaFinal(
 
   // RESUMEN GENERAL: Solo Ocultas Blancas (placa, canto 2mm en visibles)
   datos.push([
-    'RESUMEN GENERAL: SOLO OCULTAS BLANCAS (placa, canto 2mm en visibles)',
+    'RESUMEN GENERAL: SOLO OCULTAS BLANCAS (placa, canto 2mm)',
     '',
     '',
     '',
@@ -1163,7 +1163,7 @@ function generarHojaSalidaFinal(
 
   // RESUMEN GENERAL: Todo Color (placa, canto 2mm en visibles)
   datos.push([
-    'RESUMEN GENERAL: TODO COLOR (placa, canto 2mm en visibles)',
+    'RESUMEN GENERAL: TODO COLOR (placa, canto 2mm)',
     '',
     '',
     '',
